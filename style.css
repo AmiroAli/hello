@@ -111,3 +111,25 @@ section {
   max-width: 100vw;
   padding: 12rem 0 0;
 }
+
+/* ======================   Navbar  =================== */
+
+nav {
+  width: 100vw;
+  height: 5rem;
+  display: grid;
+  place-item: center;
+  position: fixed;
+  z-index: 2;  
+}
+
+nav button {
+  display: none;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
